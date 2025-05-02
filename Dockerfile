@@ -6,6 +6,6 @@ WORKDIR /app
 RUN npm i --no-fund --no-audit @modelcontextprotocol/inspector
 
 # Expose the required ports
-EXPOSE 8080 9000
+EXPOSE 6274 9000
 
 CMD ["npx", "@modelcontextprotocol/inspector"]
