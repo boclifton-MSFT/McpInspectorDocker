@@ -21,7 +21,7 @@ docker build -t mcp-inspector .
 ### Running the container
 
 ```bash
-docker run -p 8080:8080 -p 9000:9000 mcp-inspector
+docker run -p 8080:6274 -p 9000:9000 mcp-inspector
 ```
 
 This will:
